@@ -1,0 +1,21 @@
+rails new appname
+rails new myapp -T --database=postgresql
+add Gemfile with guard spork and other gems
+'guard init sport' or ' guard init rspec '
+edit Gueardfile edit spec/spec_helper.rb
+edit spec/request/*_spec.rb files
+bundle install --without production --binstubs=./bundler_stubs
+
+rails generate	
+		scaffold ClassName attr1:string attr2:string
+		rspec:install (install 	to use rspec)
+		controller StaticPages page1 page2 --no-test-framework
+		integration-test static_pages
+rails destroy
+
+rake db:migrate
+rake db:create:all
+rake db:rollback
+rake db:migrate VERSION=0
+
+guard/(spork+rspec)
